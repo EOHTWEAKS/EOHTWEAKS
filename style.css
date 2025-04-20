@@ -164,3 +164,67 @@ h1, p, h2, small, strong, li {
   color: white;
   text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
 }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 1rem;
+  background: transparent;
+}
+
+.main-panel {
+  background: rgba(28, 28, 28, 0.9);
+  padding: 3rem;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+}
+
+.main-panel h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  text-shadow: 0 0 10px #00f0ff;
+}
+
+.tagline {
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.panel-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.panel-btn {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  background: #00f0ff;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00f0ff;
+  transition: all 0.3s ease-in-out;
+}
+
+.panel-btn:hover {
+  background: white;
+  color: #00f0ff;
+}
+
+.panel-btn.secondary {
+  background: transparent;
+  color: #00f0ff;
+  border: 2px solid #00f0ff;
+}
+
+.panel-btn.secondary:hover {
+  background: #00f0ff;
+  color: black;
+}
