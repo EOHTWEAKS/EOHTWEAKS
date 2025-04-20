@@ -16,11 +16,10 @@
   <div class="main-panel">
     <img src="logo_eoh_cool.png" class="logo-main" alt="EOH Logo" />
     <h1>EOH Tweaks</h1>
-    <p class="tagline">The ultimate customization utility for your system</p>
+    <p class="tagline"><span class="typed"></span></p>
 
     <div class="panel-buttons">
-      <a href="#" class="panel-btn">Home</a>
-      <a href="https://drive.google.com/file/d/1KPHvPRfm-1qnMe3RD5iIRQCrJK29yErv/view?usp=drive_link" class="panel-btn" target="_blank">Download</a>
+            <a href="https://drive.google.com/file/d/1KPHvPRfm-1qnMe3RD5iIRQCrJK29yErv/view?usp=drive_link" class="panel-btn" target="_blank">Download</a>
       <a href="credits.html" class="panel-btn">Credits</a>
       <a href="https://discord.gg/5u36ctdQ" class="panel-btn secondary" target="_blank">Join Discord</a>
     </div>
@@ -28,5 +27,36 @@
 </main>
 
 
+
+<section class="updates-section">
+  <div class="updates-box">
+    <h2>📢 Latest Updates</h2>
+    <ul>
+      <li>✅ Added typing animation to homepage</li>
+      <li>✅ Created a central glowing panel for navigation</li>
+      <li>✅ Styled buttons and logo with neon glow</li>
+    </ul>
+  </div>
+  <div class="changelog-box">
+    <h2>📝 Changelog</h2>
+    <ul>
+      <li>🚫 Removed top nav bar</li>
+      <li>🎨 Replaced image and logo system-wide</li>
+      <li>🎯 Download button now links to Google Drive</li>
+    </ul>
+  </div>
+</section>
 </body>
+
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed('.typed', {
+    strings: ["The ultimate customization utility for your system", "Now with neon panels, updates & more!"],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
+  });
+</script>
 </html>

@@ -236,3 +236,60 @@ h1, p, h2, small, strong, li {
   margin-bottom: 1rem;
   box-shadow: 0 0 12px #00f0ff;
 }
+
+.main-panel {
+  background: black !important;
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.1);
+}
+
+.panel-btn {
+  background: black !important;
+  color: #00f0ff !important;
+  border: 2px solid #00f0ff;
+}
+
+.panel-btn:hover {
+  background: #00f0ff !important;
+  color: black !important;
+}
+
+.panel-btn.secondary {
+  background: black !important;
+  color: #00f0ff;
+}
+
+.panel-btn.secondary:hover {
+  background: #00f0ff;
+  color: black;
+}
+
+.updates-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+}
+
+.updates-box, .changelog-box {
+  background: black;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(0,255,255,0.1);
+}
+
+.updates-box h2, .changelog-box h2 {
+  margin-bottom: 1rem;
+  color: #00f0ff;
+}
+
+.updates-box ul, .changelog-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.updates-box li, .changelog-box li {
+  margin-bottom: 0.5rem;
+  color: white;
+}
