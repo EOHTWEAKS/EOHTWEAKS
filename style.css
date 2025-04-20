@@ -136,3 +136,31 @@ body {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
 }
+
+.nav-centered {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  background: black;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+nav a:hover {
+  background: #00f0ff;
+  color: black;
+  box-shadow: 0 0 10px #00f0ff;
+}
+
+h1, p, h2, small, strong, li {
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
